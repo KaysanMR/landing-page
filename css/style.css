@@ -55,11 +55,12 @@ ul {
 }
 
 button {
+    flex: 0 0 auto;
     font-size: 16px;
     font-weight: 700;
     color: #f9faf8;
     margin: 16px 0;
-    padding: 1em 50px;
+    padding: 1em 3em;
     border-style: none;
     border-radius: 5px;
     background-color: #3882f6;
@@ -120,8 +121,11 @@ button {
 }
 
 .container {
+    width: 800px;
     display: flex;
-    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 100px;
     margin: 60px 0;
     border-radius: 15px;
     background-color: #3882f6;
@@ -129,5 +133,10 @@ button {
 }
 
 .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text h3 {
     margin: 0;
 }
