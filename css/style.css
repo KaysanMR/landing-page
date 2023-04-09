@@ -13,10 +13,10 @@ body {
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 0 15%;
 }
 
 .header {
+    padding: 0 15%;
     justify-content: space-between;
 }
 
@@ -47,6 +47,7 @@ ul {
 
 .banner {
     align-items: center;
+    padding: 32px 15%;
     height: 1000px;
     justify-content: space-between;
 }
