@@ -16,7 +16,7 @@ header,
 }
 
 header {
-    padding: 0 15%;
+    padding: 0 20%;
     justify-content: space-between;
 }
 
@@ -41,13 +41,13 @@ img {
 ul {
     padding: 0;
     display: flex;
-    gap: 8px;
+    gap: 16px;
     list-style: none;
 }
 
 .banner {
     align-items: center;
-    padding: 32px 15%;
+    padding: 32px 20%;
     justify-content: space-between;
 }
 .bannerText {
@@ -64,11 +64,16 @@ button {
     border-style: none;
     border-radius: 5px;
     background-color: #3882f6;
+    transition: background-color 1s;
+}
+
+button:hover{
+    background-color: #81aef7;
 }
 
 .info {
     margin: 32px;
-    padding: 0 15%;
+    padding: 0 20%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -102,7 +107,7 @@ button {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-    padding: 0 15%;
+    padding: 0 20%;
     background-color: #e5e7eb;
 }
 
@@ -113,7 +118,7 @@ button {
 }
 
 .prompt {
-    padding: 0 15%;
+    padding: 0 20%;
     display: flex;
     justify-content: space-evenly;
 }
