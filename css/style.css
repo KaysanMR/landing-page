@@ -17,7 +17,6 @@ body {
 }
 
 .header {
-    height: 72px;
     justify-content: space-between;
 }
 
@@ -47,7 +46,8 @@ ul {
 }
 
 .banner {
-    height: 400px;
+    align-items: center;
+    height: 1000px;
     justify-content: space-between;
 }
 .bannerText {
@@ -63,4 +63,36 @@ button {
     border-style: none;
     border-radius: 5px;
     background-color: #3882f6;
+}
+
+.info {
+    margin: 32px;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info ul {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info li {
+    width: 200px;
+    font: Arial 16px bold;
+}
+
+div.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:5px solid #3882f6;
+    border-radius: 15px;
+    background-color: #72a8ff;
+    color: #f9faf8;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 16px;
 }
