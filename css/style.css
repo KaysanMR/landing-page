@@ -21,11 +21,16 @@ body {
     justify-content: space-between;
 }
 
+.header a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
 h1 {
     font-weight: 900;
 }
 
-h2 {
+.banner h2 {
     font-size: 48px;
     font-weight: 900;
 }
@@ -34,19 +39,11 @@ img {
  border-radius: 5px;
 }
 
-.header a {
-    color: #f9faf8;
-}
-
 ul {
     padding: 0;
     display: flex;
     gap: 8px;
     list-style: none;
-}
-
-a {
-    text-decoration: none;
 }
 
 .banner {
